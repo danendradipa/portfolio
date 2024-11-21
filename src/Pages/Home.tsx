@@ -32,7 +32,7 @@ const Home = () => {
             </h2>
             <p className="font-light text-justify leading-relaxed">
               I enjoy working on data-driven projects and creating user-friendly
-              web applications. Feel free to explore my portfolio or reach out
+              websites. Feel free to explore my portfolio or reach out
               if you'd like to collaborate!
             </p>
             <a href="#" download={true}>
