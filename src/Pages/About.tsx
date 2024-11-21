@@ -1,72 +1,71 @@
 import SkillCard from "../component/SkillCard";
 
-
 const skillItem = [
   {
-    imgSrc: 'icon/figma.svg',
-    label: 'Figma',
-    desc: 'Design tool'
+    imgSrc: "icon/figma.svg",
+    label: "Figma",
+    desc: "Design tool",
   },
   {
-    imgSrc: 'icon/html5.svg',
-    label: 'HTML',
-    desc: 'Structure'
+    imgSrc: "icon/html5.svg",
+    label: "HTML",
+    desc: "Structure",
   },
   {
-    imgSrc: 'icon/css3.svg',
-    label: 'CSS',
-    desc: 'Styling'
+    imgSrc: "icon/css3.svg",
+    label: "CSS",
+    desc: "Styling",
   },
   {
-    imgSrc: 'icon/tailwindcss.svg',
-    label: 'TailwindCSS',
-    desc: 'CSS Framework'
+    imgSrc: "icon/tailwindcss.svg",
+    label: "TailwindCSS",
+    desc: "CSS Framework",
   },
   {
-    imgSrc: 'icon/javascript.svg',
-    label: 'JavaScript',
-    desc: 'Programming Language'
+    imgSrc: "icon/javascript.svg",
+    label: "JavaScript",
+    desc: "Programming Language",
   },
   {
-    imgSrc: 'icon/typescript.svg',
-    label: 'TypeScript',
-    desc: 'Programming Language'
+    imgSrc: "icon/typescript.svg",
+    label: "TypeScript",
+    desc: "Programming Language",
   },
   {
-    imgSrc: 'icon/python.svg',
-    label: 'Python',
-    desc: 'Programming Language'
+    imgSrc: "icon/python.svg",
+    label: "Python",
+    desc: "Programming Language",
   },
   {
-    imgSrc: 'icon/jupyter.svg',
-    label: 'Jupyter Notebook', 
-    desc: 'Machine Learning'
+    imgSrc: "icon/jupyter.svg",
+    label: "Jupyter Notebook",
+    desc: "Machine Learning",
   },
   {
-    imgSrc: 'icon/react.svg',
-    label: 'React',
-    desc: 'Library Web'
+    imgSrc: "icon/react.svg",
+    label: "React",
+    desc: "Library Web",
   },
   {
-    imgSrc: 'icon/nodejs.svg',
-    label: 'NodeJS',
-    desc: 'Runtime Environment'
+    imgSrc: "icon/nodejs.svg",
+    label: "NodeJS",
+    desc: "Runtime Environment",
   },
   {
-    imgSrc: 'icon/express.svg',
-    label: 'ExpressJS',
-    desc: 'Node Framework'
+    imgSrc: "icon/express.svg",
+    label: "ExpressJS",
+    desc: "Node Framework",
   },
   {
-    imgSrc: 'icon/mongodb.svg',
-    label: 'MongoDB',
-    desc: 'Database'
+    imgSrc: "icon/mongodb.svg",
+    label: "MongoDB",
+    desc: "Database",
   },
   {
-    imgSrc: 'icon/github.svg',
-    label: 'GitHub',
-    desc: 'Version Control'
-  }
+    imgSrc: "icon/github.svg",
+    label: "GitHub",
+    desc: "Version Control",
+  },
 ];
 
 const About = () => {
@@ -92,13 +91,19 @@ const About = () => {
               </div>
             </div>
             <div className="mt-20 md:mt-0 md:w-1/2 md:max-w-[500px] flex flex-col gap-6">
-              <p className="font-roboto">
-                A student of Information Technology at Yogyakarta State
-                University who is passionate about technology, especially
-                Front-End Web Development and UI/UX Design. Skilled in HTML,
-                CSS, JavaScript, and frameworks such as Bootstrap and Tailwind
-                CSS, I create visually appealing and user-friendly interfaces. I
-                am also interested in Data and Machine Learning.
+              <p className="font-light text-justify leading-relaxed">
+                Hi everyone, my name is Danendra Dipa. I'm a student of
+                Information Technology at Yogyakarta State University with a
+                passion for technology, focusing on Machine Learning, Front-End
+                Web Development, and UI/UX Design. I have experience using
+                Python and JavaScript for development and enjoy creating user
+                interfaces with frameworks like React.
+              </p>
+              <p className="font-light text-justify leading-relaxed">
+                I also have a background in designing user-friendly and visually
+                appealing interfaces with tools like Figma. I am eager to
+                explore new technologies and apply them to solve real-world
+                problems effectively.
               </p>
               <a href="#" download={true}>
                 <button className="mt-5 text-base text-white font-semibold bg-orange-400 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
@@ -119,15 +124,9 @@ const About = () => {
             </h1>
           </div>
           <div className="pt-20 grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
-            {
-              skillItem.map(({ imgSrc, label, desc }, key) => (
-                <SkillCard
-                  key={key}
-                  imgSrc={imgSrc}
-                  label={label}
-                  desc={desc}/>
-              ))
-            }
+            {skillItem.map(({ imgSrc, label, desc }, key) => (
+              <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} />
+            ))}
           </div>
         </div>
       </section>
