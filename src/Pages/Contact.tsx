@@ -14,11 +14,9 @@ const Contact = () => {
             <h2 className="text-4xl font-light max-w-[290px]">
               Hit me up for collaboration👋
             </h2>
-            <p className="text-light">
+            <p className="font-light w-3/4">
               If you have any questions, projects, or just want to say hello,
-              don’t hesitate to contact me. I'm always open to discussing new
-              opportunities or collaborations. Let's work together to create
-              something amazing!
+              don’t hesitate to contact me.
             </p>
           </div>
 
