@@ -56,21 +56,17 @@ const Navbar = () => {
 
           {/* Social Media Icons (mobile) */}
           <div className="flex space-x-4 mt-6 md:hidden">
-            <a href="">
-              <img src="icon/github.svg" alt="GitHub" className="w-7 h-7 " />
+            <a href="https://github.com/danendradipa" target="_blank">
+              <img src="icon/github.svg" alt="GitHub" className="w-7 h-7" />
             </a>
-            <a href="">
-              <img
-                src="icon/linkedin.svg"
-                alt="LinkedIn"
-                className="w-7 h-7 "
-              />
+            <a href="https://www.linkedin.com/in/danendradipa/" target="_blank">
+              <img src="icon/linkedin.svg" alt="LinkedIn" className="w-7 h-7" />
             </a>
-            <a href="">
+            <a href="https://instagram.com/danendradipa_" target="_blank">
               <img
                 src="icon/instagram.svg"
                 alt="Instagram"
-                className="w-7 h-7 "
+                className="w-7 h-7"
               />
             </a>
           </div>
@@ -84,7 +80,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/danendradipa/" target="_blank">
             <img src="icon/linkedin.svg" alt="LinkedIn" className="w-7 h-7" />
           </a>
-          <a href="" target="_blank">
+          <a href="https://instagram.com/danendradipa_" target="_blank">
             <img src="icon/instagram.svg" alt="Instagram" className="w-7 h-7" />
           </a>
         </div>
