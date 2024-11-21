@@ -30,7 +30,7 @@ const Home = () => {
                 cursorColor="#FB923C"
               />
             </h2>
-            <p className="font-roboto">
+            <p className="font-light text-justify leading-relaxed">
               I enjoy working on data-driven projects and creating user-friendly
               web applications. Feel free to explore my portfolio or reach out
               if you'd like to collaborate!
